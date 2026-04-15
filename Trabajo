@@ -1,0 +1,25 @@
+# Trabajo-Programacion
+while True:
+    print("""
++-----------------------------------------------------------------+
+| SISTEMA DE PLANIFICACIÓN DE RESERVACIÓN DE HABITACIONES DE HOTEL|
+| 1) Generar plan de reservas.                                    |
+| 2) Ingresar costo de reservas por habitación y día.             |
+| 3) Visualizar ingreso total de una habitación.                  |
+| 4) Visualizar ingreso total por día.                            |
+| 5) Salir del programa.                                          |
++-----------------------------------------------------------------+
+    """)
+    opcion = int(input("Seleccione una opción: "))
+    
+    if opcion == 1:
+        print("Opción 1")
+    elif opcion == 2:
+        print("Opción 2")
+    elif opcion == 3:
+        print("Opción 3")
+    elif opcion == 3:
+        print("Opción 4")
+    elif opcion == 5:
+        break
+    else: print("Ingresa una opción válida")
